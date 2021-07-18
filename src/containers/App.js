@@ -7,14 +7,13 @@ import Registration from "../containers/Registration";
 import Services from "../containers/Services";
 import Schedule from "../containers/Schedule";
 import Gallery from "../containers/Gallery";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+// import Navbar from "../components/Navbar";
+// import Footer from "../components/Footer";
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Footer />
+      {/* <Footer /> */}
       <Switch>
         <Route exact path="/" component={Homepage} />
         <Route path="/about" component={About} />

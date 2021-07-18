@@ -1,12 +1,13 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <Nav className="border border-primary justify-content-between align-items-center">
+    <Nav className="justify-content-between align-items-center">
       <img
-        src="iDance Logo.jpeg"
+        src="iDance Logo.png"
         alt="iDance Academy logo"
         height="125"
         width="125"
