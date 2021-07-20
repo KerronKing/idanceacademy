@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .homepage-first {
-  background-image: url('../images/courtney-r-andrews-u5MXF-5y1Ck-unsplash.jpg');
-  background-position: center;
+  background-image: url("../images/aliaksei-manlyx-YipPfXLCiUo-unsplash.jpg");
+  background-position: 100% 70%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 800px;
   position: relative;
   top: 0;
 }
 
 .homepage-first-heading-text {
-  border: 1px solid purple;
+  font-family: 'Courgette', cursive;
   font-size: 2rem;
   margin-top: 50px;
   text-align: left;
@@ -25,11 +27,44 @@
   }
 }
 
-.test {
+.homepage-second {
+  border: 1px solid green;
+  padding-bottom: 15rem;
+}
+
+.join-us {
   height: 500px;
+}
+.img-1 {
+  background-image: url("../images/courtney-r-andrews-u5MXF-5y1Ck-unsplash.jpg");
+  background-position: 100% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-2 {
+  background-image: url("../images/morgan-petroski-LsMxdW1zWEQ-unsplash.jpg");
+  background-position: 100% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-3 {
+  background-image: url("../images/samantha-weisburg-Vgj9bUwaqT0-unsplash.jpg");
+  background-position: 100% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .aligner {
   display: grid;
   place-items: center;
+}
+
+.class-first {
+  background-color: royalblue;
+  height: 100px;
+}
+
+.class-second {
+  background-color: seagreen;
+  height: 400px;
 }
