@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Footer.scss";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -21,13 +20,13 @@ const Footer = () => {
           <Link to="/contact">
             <button className="btn btn-info p-3">Contact Us</button>
           </Link>
-          <a href="#">
+          <a href="https://www.facebook.com/idanceacademytt868">
             <img src="https://img.icons8.com/color/48/000000/facebook-circled--v5.png" alt="facebook" />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/">
             <img src="https://img.icons8.com/color/48/000000/twitter-circled--v2.png" alt="twitter" />{" "}
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/idanceacademytt868/">
             <img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png" alt="instagram" />{" "}
           </a>
         </div>

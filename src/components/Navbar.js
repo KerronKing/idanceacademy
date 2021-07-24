@@ -5,7 +5,7 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <Nav className="justify-content-between align-items-center">
+    <Nav className="justify-content-between align-items-center idance-nav w-100">
       <img
         src="iDance Logo.png"
         alt="iDance Academy logo"

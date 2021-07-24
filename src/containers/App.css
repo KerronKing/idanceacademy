@@ -1,4 +1,11 @@
 .App {
+  background: rgb(248, 2, 249);
+  background: linear-gradient(
+    270deg,
+    rgba(248, 2, 249, 0.09987745098039214) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(248, 2, 249, 0.09987745098039214) 100%
+  );
   text-align: center;
 }
 
