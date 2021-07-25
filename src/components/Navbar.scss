@@ -1,3 +1,5 @@
+@import "mixins.scss";
+
 .idance-nav {
   position: absolute;
   top: 0rem;
@@ -8,13 +10,13 @@
   color: black;
   font-weight: bold;
   &:after {
-    content: '';
+    content: "";
     display: block;
     margin: auto;
     height: 3px;
     width: 0px;
     background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+    transition: width 0.5s ease, background-color 0.5s ease;
   }
   &:hover {
     color: #b300b3;
@@ -25,5 +27,64 @@
   }
 }
 
+.menu-btn {
+  align-items: center;
+  cursor: pointer;
+  display: none;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+.burger {
+  @include burger;
+}
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  @include burger;
+}
+
+.burger::before {
+  transform: translate(-13px, -8px);
+}
+.burger::after {
+  transform: translate(-13px, 8px);
+}
+
+// Hamburger Animation
+
+.menu-btn.open .burger {
+  background-color: transparent;
+  transform: translateX(-25px);
+}
+.menu-btn.open .burger::before {
+  transform: rotate(45deg) translate(17px, -17px);
+}
+.menu-btn.open .burger::after {
+  transform: rotate(-45deg) translate(17px, 17px);
+}
+
 @media only screen and (max-width: 1024px) {
+  #nav-links {
+    height: 0px;
+    visibility: hidden;
+    width: 0px;
+  }
+  #nav-links.responsive {
+    background-color: honeydew;
+    flex-direction: column !important;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    transition: all 0.5s ease-in-out;
+    visibility: visible;
+    width: 40%;
+    z-index: 200;
+  }
+  .menu-btn {
+    display: flex;
+    margin-right: 5%;
+  }
 }

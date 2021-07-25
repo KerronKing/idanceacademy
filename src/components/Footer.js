@@ -6,17 +6,18 @@ const Footer = () => {
 
   return (
     <>
-      <div className="footer d-flex flex-row justify-content-between border">
+      <div className="footer d-flex flex-md-row justify-content-md-between border">
         <Link to="/">
           <img
             src="iDance Logo.png"
             alt="iDance Academy logo"
-            height="300"
-            width="300"
+            className="footer-logo"
+            height="200"
+            width="200"
           />
         </Link>
         <p></p>
-        <div className=" d-flex align-items-center justify-content-around w-25 mr-4">
+        <div className=" d-flex align-items-center justify-content-md-between mr-4 footer-links">
           <Link to="/contact">
             <button className="btn btn-info p-3">Contact Us</button>
           </Link>

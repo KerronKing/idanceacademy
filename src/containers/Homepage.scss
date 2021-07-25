@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 .homepage-first {
+  height: 800px;
   position: relative;
   top: 0;
   z-index: 100;
+}
+
+.slider {
+  height: 800px;
 }
 
 .homepage-first-heading-text {
@@ -38,16 +43,12 @@
   padding: 16rem 7rem 16rem 7rem;
 }
 
-.dance-silhoutte-1 {
-  position: relative;
-  left: 6rem;
-  top: 115%;
+.heading-container {
+  width: 25%;
 }
 
-.dance-silhoutte-2 {
-  position: relative;
-  right: 6rem;
-  top: 115%;
+.mission {
+  width: 50%;
 }
 
 .heading-border {
@@ -91,6 +92,13 @@
   height: 150px;
 }
 
+.btn-beginner {
+  background-color: rgb(123, 195, 253);
+  &:hover {
+    background-color: rgba(123, 194, 253, 0.596);
+    color: white;
+  }
+}
 .btn-youth {
   background-color: pink;
   &:hover {
@@ -101,7 +109,6 @@
   background-color: purple;
   color: white;
   &:hover {
-    // background-color: green;
     background-color: rgb(185, 51, 185);
     color: black;
   }
@@ -111,5 +118,47 @@
   &:hover {
     background-color: rgb(153, 151, 151);
     color: white;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .homepage-first-heading-text {
+    font-size: 1.5rem;
+    h3 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .homepage-second {
+    padding: 12rem 5rem 12rem 5rem;
+  }
+
+  .heading-container {
+    width:50%;
+  }
+
+  .mission {
+    width: 75%;
+  }
+
+  .class-first {
+    height: 300px;
+  }
+
+  .class-second {
+    height: 125px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .homepage-second {
+    padding: 10rem 0.5rem 10rem 0.5rem;
+  }
+
+  .aligner {
+    height: 300px;
+  }
+  .reverser {
+    flex-direction: column-reverse !important;
   }
 }

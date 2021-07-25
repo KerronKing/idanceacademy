@@ -16,7 +16,7 @@ const Homepage = () => {
   return (
     <>
       <div className="homepage-first">
-        <AutoplaySlider play={true} cancelOnInteraction={false} interval={3000}>
+        <AutoplaySlider className="slider" play={true} cancelOnInteraction={false} interval={3000}>
           <div data-src={openingimg} />
           <div data-src={openingimg1} />
           <div data-src={openingimg2} />
@@ -44,7 +44,7 @@ const Homepage = () => {
 
       <div className="homepage-second d-flex flex-row">
         <div>
-          <div className="w-50 container">
+          <div className="mission container">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque blandit varius elit, nec dignissim massa elementum
             quis. Nam turpis nibh, accumsan non nisi et, volutpat interdum
@@ -65,7 +65,7 @@ const Homepage = () => {
       {/* Join Us */}
 
       <div className="container border-top pt-3">
-        <div className="w-25 container mt-5">
+        <div className="heading-container container mt-5">
           <h2 className="heading-border pb-5 my-3">JOIN US</h2>
         </div>
 
@@ -82,7 +82,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="row justify-content-around mt-5">
+        <div className="row justify-content-around mt-5 reverser">
           <div className="col-sm-12 col-md-4 offset-md-1 join-us aligner">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque blandit varius elit, nec dignissim massa elementum
@@ -112,25 +112,25 @@ const Homepage = () => {
       {/* Classes Section */}
 
       <div className="container pb-5">
-        <div className="w-25 container mt-5">
+        <div className="heading-container container mt-5">
           <h2 className="heading-border pb-5 my-3">OUR CLASSES</h2>
         </div>
 
         <div className="row justify-content-around mt-5">
-          <div className="col-sm-12 col-md-5 p-0 border border-dark">
-            <div className="class-first border "></div>
+          <div className="col-sm-12 col-md-5 p-0 border border-dark mb-5">
+            <div className="class-first border"></div>
             <div className="class-second d-flex flex-row justify-content-around">
               <p className="text-light align-self-center" >BEGINNER'S BALLET</p>
-              <button className="btn btn-info h-50 w-25 align-self-center">
+              <button className="btn btn-beginner p-3 align-self-center">
                 Learn More
               </button>
             </div>
           </div>
-          <div className="col-sm-12 col-md-5 offset-1 p-0 border border-dark">
+          <div className="col-sm-12 col-md-5 offset-md-1 p-0 border border-dark mb-5">
             <div className="class-first border"></div>
             <div className="class-second d-flex flex-row justify-content-around">
               <p className="text-light align-self-center" >YOUTH BALLET</p>
-              <button className="btn btn-youth h-50 w-25 align-self-center">
+              <button className="btn btn-youth p-3 align-self-center">
                 Learn More
               </button>
             </div>
@@ -138,20 +138,20 @@ const Homepage = () => {
         </div>
 
         <div className="row justify-content-around mt-5">
-          <div className="col-sm-12 col-md-5 p-0 border border-dark">
+          <div className="col-sm-12 col-md-5 p-0 border border-dark mb-5">
             <div className="class-first border"></div>
             <div className="class-second d-flex flex-row justify-content-around">
               <p className="text-light align-self-center" >MODERN DANCE</p>
-              <button className="btn btn-modern h-50 w-25 align-self-center">
+              <button className="btn btn-modern p-3 align-self-center">
                 Learn More
               </button>
             </div>
           </div>
-          <div className="col-sm-12 col-md-5 offset-1 p-0 border border-dark">
+          <div className="col-sm-12 col-md-5 offset-md-1 p-0 border border-dark mb-5">
             <div className="class-first border"></div>
             <div className="class-second d-flex flex-row justify-content-around">
               <p className="text-light align-self-center" >JAZZ</p>
-              <button className="btn btn-jazz h-50 w-25 align-self-center">
+              <button className="btn btn-jazz p-3 align-self-center">
                 Learn More
               </button>
             </div>
@@ -162,7 +162,7 @@ const Homepage = () => {
       {/* Call to Sign Up Section */}
 
       <div className="container pb-5">
-        <div className="w-25 container mt-5">
+        <div className="heading-container container mt-5">
           <h2 className="heading-border pb-5 my-3">SIGN UP TODAY!</h2>
         </div>
         <div className="p-5">

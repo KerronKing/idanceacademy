@@ -6,8 +6,8 @@ import Contact from "../containers/Contact";
 import Registration from "../containers/Registration";
 import Services from "../containers/Services";
 import Schedule from "../containers/Schedule";
+import Events from "../containers/Events";
 import Gallery from "../containers/Gallery";
-// import Navbar from "../components/Navbar";
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
         <Route path="/registration" component={Registration} />
         <Route path="/services" component={Services} />
         <Route path="/schedule" component={Schedule} />
+        <Route path="/events" component={Events} />
         <Route path="/gallery" component={Gallery} />
       </Switch>
     </div>
