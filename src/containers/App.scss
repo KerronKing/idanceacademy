@@ -1,13 +1,6 @@
 @import "../components/mixins.scss";
 
 .App {
-  background: rgb(248, 2, 249);
-  background: linear-gradient(
-    270deg,
-    rgba(248, 2, 249, 0.09987745098039214) 0%,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(248, 2, 249, 0.09987745098039214) 100%
-  );
   overflow: hidden;
   text-align: center;
 }
@@ -47,27 +40,55 @@
   }
 }
 
-@media only screen and (max-width: 1100px) {
-  .footer-links {
-    width: 35%;
+.footer {
+  background: black;
+  color: white;
+  .footer-logo {
+    border-radius: 50%;
+  }
+  .footer-contact {
+    display: flex;
+    flex: row;
+    padding: 0.5rem;
+    img {
+      z-index: 1000;
+    }
+    span {
+      margin-left: 1.5rem;
+    }
+  }
+  ul li {
+    list-style-type: none;
+    padding: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  .footer-first {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .footer-list ul {
+    padding-right: 2rem !important;
+  }
+  .footer-contact {
+    justify-content: center;
+    span {
+      margin-left: 0rem !important;
+    }
   }
 }
 
 @media only screen and (max-width: 767px) {
   .footer {
     justify-content: space-between;
-    @include shadow;
-  }
-
-  .footer-logo {
-    height: 150px;
-    width: 150px;
   }
   .footer-links {
-    width: 60%;
+    justify-content: flex-end;
+    width: 50%;
   }
   .footer-links a {
-    margin-right: 25px;
+    margin-right: 10px;
   }
 }
 
@@ -77,10 +98,9 @@
     flex-direction: column;
   }
 
-  .footer-links {
-    margin: 0 auto;
-    padding-bottom: 2rem;
-    width: 65%;
+  .footer-links img {
+    height: 30px;
+    width: 30px;
   }
 }
 
@@ -90,7 +110,20 @@
   }
 
   .footer-links {
-    justify-content: center;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 352px) {
+  .footer-contact img {
+    height: 0px;
+    visibility: hidden;
+    width: 0px;
+  }
+  .footer {
+    font-size: 0.7rem;
+  }
+  .footer-links a {
+    margin-right: 2px;
   }
 }
