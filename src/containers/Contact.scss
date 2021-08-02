@@ -1,0 +1,111 @@
+@import "../components/mixins.scss";
+
+.contact-main-section {
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+  padding-top: 50px;
+  width: 970px;
+  .contact-inner {
+    @include shadow;
+  }
+  .contact-1 {
+    height: 30rem;
+    padding: 3rem;
+    width: 40%;
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .contact-item {
+      padding-bottom: 1rem;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .contact-2 {
+    height: auto;
+    padding: 3rem;
+    width: 60%;
+    input, textarea {
+      border: 1px solid #e8e9ef;
+      border-radius: 24px;
+      margin-bottom: 2rem;
+      padding: 15px 24px 14px;
+    }
+  }
+}
+
+#submit-message {
+  background-color: #b300b3;
+  border: 0;
+  color: white;
+  width: 180px;
+  &:hover {
+    background-color: #770077;
+  }
+}
+
+.contact-info {
+  padding: 0.5rem;
+  position: relative;
+  text-align: left;
+  top: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+  input::placeholder, textarea::placeholder {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-inner {
+    flex-direction: column !important;
+  }
+  .contact-main-section {
+    width: 80%;
+  }
+  .contact-main-section .contact-1 {
+    height: auto;
+    padding: 3rem 3rem 0rem 3rem;
+    width: 100%;
+    h3 {
+      font-size: 13px;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+  .contact-main-section .contact-2 {
+    margin: 0 auto;
+    padding: 0rem 3rem 3rem 3rem;
+    width: 100%;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-info {
+    flex-direction: column;
+  }
+  .contact-2 input {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-main-section {
+    width: 95%;
+    .contact-1 {
+      padding: 1rem;
+    }
+    .contact-2 {
+      padding: 1rem;
+    }
+  }
+}
