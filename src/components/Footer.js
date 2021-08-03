@@ -30,14 +30,14 @@ const Footer = () => {
                 src="https://img.icons8.com/fluent/20/000000/ringing-phone.png"
                 alt="phone"
               />
-              <span>1-868-712-8342 / 1-868-396-1866</span>
+              <span><a href="tel:18687128342">1-868-712-8342</a> / <a href="tel:18683961866">1-868-396-1866</a></span>
             </div>
             <div className="footer-contact">
               <img
                 src="https://img.icons8.com/fluent/20/000000/email-open.png"
                 alt="email"
               />{" "}
-              <span>idanceacademy868@gmail.com</span>
+              <span><a href="mailto:idanceacademy868@gmail.com">idanceacademy868@gmail.com</a></span>
             </div>
           </div>
           <div className="footer-list">
@@ -63,7 +63,7 @@ const Footer = () => {
           <div className="footer-list">
             <ul>
               <li>
-                <button className="btn btn-outline-light p-xs-1 p-sm-3">
+                <button className="register-btn p-xs-1 p-sm-3">
                   Register Now!
                 </button>
               </li>
@@ -75,13 +75,21 @@ const Footer = () => {
             {year}. I Dance Academy. Made in Trindad and Tobago.
           </div>
           <div className=" d-flex align-items-center justify-content-md-between footer-links">
-            <a href="https://www.facebook.com/idanceacademytt868">
+            <a
+              href="https://www.facebook.com/idanceacademytt868"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="https://img.icons8.com/color/48/000000/facebook-circled--v5.png"
                 alt="facebook"
               />
             </a>
-            <a href="https://www.instagram.com/idanceacademytt868/">
+            <a
+              href="https://www.instagram.com/idanceacademytt868/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
                 alt="instagram"

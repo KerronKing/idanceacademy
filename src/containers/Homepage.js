@@ -30,7 +30,7 @@ const Homepage = () => {
 
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <Link to="/services">
-            <button className="learn-more btn-outline-dark p-xs-2 p-md-3">
+            <button className="register-btn p-xs-2 p-md-3">
               Learn more
             </button>
           </Link>
@@ -164,7 +164,7 @@ const Homepage = () => {
           vestibulum. In maximus massa purus, sed venenatis arcu varius tempus
         </div>
         <div className="p-5">
-          <button className="btn btn-outline-dark p-3">Register now!</button>
+          <button className="register-btn p-3">Register now!</button>
         </div>
       </div>
       <Footer />

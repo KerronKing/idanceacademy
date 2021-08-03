@@ -145,6 +145,11 @@
   }
 }
 
+.register-btn {
+  border-radius: 10px;
+  @include idance-btn;
+}
+
 @media only screen and (max-width: 1024px) {
   .homepage-first-heading-text {
     font-size: 1.5rem;

@@ -7,6 +7,14 @@
   padding-top: 50px;
   width: 970px;
   .contact-inner {
+    background: rgb(138, 254, 251);
+    background: linear-gradient(
+      270deg,
+      rgba(138, 254, 251, 1) 0%,
+      rgba(247, 255, 0, 1) 50%,
+      rgba(0, 249, 197, 1) 100%
+    );
+    border-radius: 15px;
     @include shadow;
   }
   .contact-1 {
@@ -28,7 +36,8 @@
     height: auto;
     padding: 3rem;
     width: 60%;
-    input, textarea {
+    input,
+    textarea {
       border: 1px solid #e8e9ef;
       border-radius: 24px;
       margin-bottom: 2rem;
@@ -38,13 +47,8 @@
 }
 
 #submit-message {
-  background-color: #b300b3;
-  border: 0;
-  color: white;
   width: 180px;
-  &:hover {
-    background-color: #770077;
-  }
+  @include idance-btn;
 }
 
 .contact-info {
@@ -55,7 +59,8 @@
 }
 
 @media only screen and (max-width: 1280px) {
-  input::placeholder, textarea::placeholder {
+  input::placeholder,
+  textarea::placeholder {
     font-size: 13px;
   }
 }
