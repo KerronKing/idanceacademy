@@ -1,5 +1,13 @@
 @import "../components/mixins.scss";
 
+body {
+  position: fixed;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
 .App {
   overflow: hidden;
   text-align: center;

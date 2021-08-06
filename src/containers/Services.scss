@@ -1,0 +1,66 @@
+@import "../components/mixins.scss";
+
+.services-section {
+  padding-top: 160px;
+  .service-link {
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    @include shadow;
+    a {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        color: #b300b3;
+      }
+    }
+  }
+}
+
+.additionals {
+  margin-bottom: 9rem;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1122px) {
+  .services-section .service-link {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 924px) {
+  .services-section .service-link {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .services-section .service-link {
+    height: 250px;
+    margin-bottom: 30px;
+    width: 250px;
+  }
+
+  .additionals {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .services-section .service-link {
+    height: 150px;
+    margin-bottom: 30px;
+    width: 150px;
+  }
+}
+

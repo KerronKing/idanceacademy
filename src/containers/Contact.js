@@ -15,11 +15,10 @@ const Contact = () => {
               </div>
               <div className="contact-item">
                 <h3>Call us:</h3>
-                <p>1-868-712-8342 / 1-868-396-1866</p>
-              </div>
+                <span><a href="tel:18687128342">1-868-712-8342</a> / <a href="tel:18683961866">1-868-396-1866</a></span>              </div>
               <div className="contact-item">
                 <h3>Email us:</h3>
-                <p>idanceacademy868@gmail.com</p>
+                <span><a href="mailto:idanceacademy868@gmail.com">idanceacademy868@gmail.com</a></span>
               </div>
             </div>
           </div>

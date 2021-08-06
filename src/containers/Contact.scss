@@ -7,14 +7,9 @@
   padding-top: 50px;
   width: 970px;
   .contact-inner {
-    background: rgb(138, 254, 251);
-    background: linear-gradient(
-      270deg,
-      rgba(138, 254, 251, 1) 0%,
-      rgba(247, 255, 0, 1) 50%,
-      rgba(0, 249, 197, 1) 100%
-    );
+    background: black;
     border-radius: 15px;
+    color: white;
     @include shadow;
   }
   .contact-1 {
@@ -28,8 +23,15 @@
     .contact-item {
       padding-bottom: 1rem;
     }
-    p {
+    span {
       font-size: 15px;
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: #b300b3;
+        }
+      }
     }
   }
   .contact-2 {
@@ -79,7 +81,7 @@
     h3 {
       font-size: 13px;
     }
-    p {
+    span {
       font-size: 11px;
     }
   }
