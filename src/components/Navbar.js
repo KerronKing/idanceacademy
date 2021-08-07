@@ -30,7 +30,7 @@ const Navbar = () => {
   });
 
   return (
-    <Nav className="justify-content-between align-items-center idance-nav w-100">
+    <Nav className="justify-content-between align-items-center idance-nav">
       <img
         src="https://www.dropbox.com/s/dcx7y8qu8730qa0/iDance%20Logo.jpeg?raw=1"
         alt="iDance Academy logo"
