@@ -31,10 +31,14 @@ const Navbar = () => {
 
   return (
     <Nav className="justify-content-between align-items-center idance-nav">
-      <img
-        src="https://www.dropbox.com/s/dcx7y8qu8730qa0/iDance%20Logo.jpeg?raw=1"
-        alt="iDance Academy logo"
-      />
+      <LinkContainer to="/">
+        <Nav.Link>
+          <img
+            src="https://www.dropbox.com/s/dcx7y8qu8730qa0/iDance%20Logo.jpeg?raw=1"
+            alt="iDance Academy logo"
+          />
+        </Nav.Link>
+      </LinkContainer>
       <div id="nav-links" className="d-flex flex-row">
         <Nav.Item>
           <LinkContainer to="/about">

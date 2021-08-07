@@ -1,0 +1,117 @@
+.schedule-section {
+  height: 80vh;
+  margin-bottom: 180px;
+  margin-top: 160px;
+  .schedule-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 10%;
+    z-index: 1001;
+    button {
+      border-radius: 50%;
+      height: 100px;
+      margin: 0.5rem;
+      width: 100px;
+    }
+  }
+  .schedule-content {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    float: right;
+    height: 70vh;
+    overflow-y: scroll;
+    width: 90%;
+    .schedule-breakdown {
+      padding: 3rem;
+    }
+  }
+}
+
+.schedule-info {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2.5rem;
+}
+
+.schedule-btn-sizer {
+  height: 60px;
+  width: 160px;
+}
+
+.schedule-times-sizer {
+  width: 60%;
+}
+
+@media only screen and (max-width: 1110px) {
+  .schedule-section {
+    .schedule-content {
+      width: 80%;
+      .schedule-breakdown {
+        padding: 1rem;
+      }
+    }
+  }
+
+  .schedule-times-sizer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .schedule-info {
+    flex-direction: column;
+    justify-content: center;
+    button {
+      margin: 0 auto;
+    }
+  }
+
+  .schedule-times-sizer {
+    margin: 0 auto;
+    padding-top: 3rem;
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .schedule-section {
+    .schedule-links {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: sticky;
+      width: 100%;
+      button {
+        font-size: 11px;
+        height: 75px;
+        width: 75px;
+      }
+    }
+    .schedule-content {
+      margin-top: 3rem;
+      width: 100%;
+    }
+
+    .schedule-btn-sizer {
+      font-size: 12px;
+      height: 40px;
+      width: 120px;
+    }
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .schedule-times-sizer {
+    justify-content: space-between !important;
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .schedule-times-sizer p {
+    font-size: 11px;
+  }
+}

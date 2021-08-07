@@ -10,7 +10,7 @@ const BeginnerBallet = () => {
 
       <div className="class">
         <img src="" alt="" />
-        <h1>Beginner Ballet</h1>
+        <h1>Beginners' Ballet</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           blandit varius elit, nec dignissim massa elementum quis. Nam turpis

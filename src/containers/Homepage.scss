@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 @import "../components/mixins.scss";
+@import "../components/variables.scss";
 
 .homepage-first {
   height: 800px;
@@ -15,7 +16,9 @@
 .homepage-first-heading-text {
   background-color: #00000042;
   border-radius: 7px;
-  color: rgba(255, 255, 255, 0.664);
+  color: $opening-section-color;
+  // color: black;
+  // color: rgba(255, 255, 255, 0.664);
   font-family: "Courgette", cursive;
   font-size: 2rem;
   height: 65%;
@@ -29,11 +32,15 @@
   z-index: 100;
   h3 {
     font-size: 4rem;
+    font-weight: bold;
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
   p {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+  }
+  .enroll {
+    font-size: 2.5rem;
   }
   .learn-more {
     background-color: transparent;
@@ -98,8 +105,8 @@
 }
 
 .aligner {
-  display: grid;
-  place-items: center;
+  position: relative;
+  top: 7rem;
 }
 
 .class-div {
