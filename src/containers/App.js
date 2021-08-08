@@ -8,13 +8,13 @@ import Services from "../services/Services";
 import Schedule from "../containers/Schedule";
 import Events from "../containers/Events";
 import Gallery from "../containers/Gallery";
-import BeginnerBallet from "../services/BeginnerBallet";
-import YouthBallet from "../services/YouthBallet";
+import Ballet from "../services/Ballet";
 import ModernDance from "../services/ModernDance";
 import Jazz from "../services/Jazz";
 import MarriagePackges from "../services/MarriagePackages";
 import GraduationPackages from "../services/GraduationPackages";
 import MiscPackages from "../services/MiscPackages";
+import Dancercise from "../services/Dancercise";
 
 const App = () => {
   return (
@@ -28,8 +28,8 @@ const App = () => {
         <Route path="/schedule" component={Schedule} />
         <Route path="/events" component={Events} />
         <Route path="/gallery" component={Gallery} />
-        <Route path="/beginner-ballet" component={BeginnerBallet} />
-        <Route path="/youth-ballet" component={YouthBallet} />
+        <Route path="/ballet" component={Ballet} />
+        <Route path="/dancercise" component={Dancercise} />
         <Route path="/modern-dance" component={ModernDance} />
         <Route path="/jazz" component={Jazz} />
         <Route path="/marriage-packages" component={MarriagePackges} />

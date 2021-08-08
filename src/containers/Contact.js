@@ -52,7 +52,7 @@ const Contact = () => {
                 class="form-control"
                 id="subject"
                 aria-describedby="subject"
-                placeholder="Message subject"
+                placeholder="Subject"
               />
             </div>
             <div class="form-group">

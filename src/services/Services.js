@@ -14,10 +14,10 @@ const Services = () => {
         <div className="container-fluid">
           <div className="row justify-content-around d-flex">
             <div className="service-link">
-              <Link to="/beginner-ballet">Beginner's Ballet</Link>
+              <Link to="/ballet">Ballet</Link>
             </div>
             <div className="service-link">
-              <Link to="/youth-ballet">Youth Ballet</Link>
+              <Link to="/dancercise">Dancercise</Link>
             </div>
             <div className="service-link">
               <Link to="/modern-dance">Modern Dance</Link>

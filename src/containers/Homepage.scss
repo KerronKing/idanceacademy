@@ -54,14 +54,18 @@
 }
 
 .homepage-second {
-  background-image: url("../images/alireza-dolati-eqLEGlP8tO4-unsplash.jpg");
-  background-position: 20%;
+  background-image: linear-gradient(
+       to bottom,
+       rgba(245, 246, 252, 0.52),
+       rgba(83, 80, 83, 0.73)
+     ),url("https://drive.google.com/uc?export=view&id=16YcabxtLeBuOskSUFiWtzNSkfgOdRFoN");
+  background-position: 20% -30%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
   font-size: 1rem;
   font-weight: bold;
-  padding: 12rem;
+  padding: 7rem 12rem 30rem 12rem;
 }
 
 .heading-container {
@@ -70,7 +74,7 @@
 
 .mission {
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
 }
 
 .heading-border {
@@ -208,7 +212,6 @@ iframe {
   }
 
   .homepage-first-heading-text {
-    // font-size: 1rem;
     h3 {
       font-size: 1.35rem;
     }

@@ -15,8 +15,9 @@
 @mixin idance-btn {
   background-color: #b300b3;
   border: 0;
-  color: white;
+  color: black;
   &:hover {
     background-color: #770077;
+    color: white;
   }
 }

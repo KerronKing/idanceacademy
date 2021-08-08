@@ -3,14 +3,14 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Services.scss";
 
-const YouthBallet = () => {
+const Ballet = () => {
   return (
     <>
       <Navbar />
 
       <div className="class">
         <img src="" alt="" />
-        <h1>Youth Ballet</h1>
+        <h1>Ballet</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           blandit varius elit, nec dignissim massa elementum quis. Nam turpis
@@ -26,4 +26,4 @@ const YouthBallet = () => {
   );
 };
 
-export default YouthBallet;
+export default Ballet;

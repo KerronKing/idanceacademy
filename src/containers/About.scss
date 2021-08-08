@@ -52,6 +52,7 @@
 }
 
 .about-1 {
+  margin-top: 6rem;
   width: 70%;
   img {
     border: 1px solid;
@@ -72,8 +73,7 @@
     border: 1px solid;
     border-radius: 50%;
     height: 150px;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
+    margin-bottom: 4rem;
     position: relative;
     top: 115px;
     width: 150px;
@@ -88,10 +88,13 @@
     width: 250px;
   }
   h2 {
-    padding-left: 2rem;
+    padding-left: 4rem;
   }
   p {
-    padding: 2.5rem 2rem 2.5rem 2rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    padding: 2.5rem 2rem 2.5rem 4rem;
+    text-align: left;
   }
 }
 
