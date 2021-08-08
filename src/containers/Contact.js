@@ -4,14 +4,14 @@ import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <>
+    <div className="contact">
       <div className="contact-main-section">
         <div className="d-flex flex-row justify-content-center contact-inner">
           <div className="contact-1">
             <div className="contact-info">
               <div className="contact-item">
                 <h3>Visit us at:</h3>
-                <p>#142 Coora Road, Siparia</p>
+                <span>#142 Coora Road, Siparia</span>
               </div>
               <div className="contact-item">
                 <h3>Call us:</h3>
@@ -73,7 +73,7 @@ const Contact = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

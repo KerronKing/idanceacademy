@@ -34,7 +34,9 @@ const Homepage = () => {
           <h3>I Dance Academy</h3>
 
           <p className="enroll">Enroll in our September 2021 Dance Classes</p>
-          <p>Ballet &#8226; Modern &#8226; Jazz &#8226; Dancercise</p>
+          <p className="dance-breakdown">
+            Ballet &#8226; Modern &#8226; Jazz &#8226; Dancercise
+          </p>
           <Link to="/services">
             <button className="register-btn p-xs-2 p-md-3">Learn more</button>
           </Link>
@@ -132,7 +134,7 @@ const Homepage = () => {
 
       <div className="container pb-5">
         <div className="heading-container container mt-5">
-          <h2 className="heading-border pb-5 my-3">OUR CLASSES</h2>
+          <h2 className="heading-border pb-5 my-3 text-center">OUR CLASSES</h2>
         </div>
 
         <div className="row justify-content-around mt-5">
@@ -203,6 +205,14 @@ const Homepage = () => {
           <button className="register-btn p-3">Register now!</button>
         </div>
       </div>
+
+      <iframe
+        src="https://embed.waze.com/iframe?zoom=16&lat=10.123833&lon=-61.502514&ct=livemap"
+        width="600"
+        height="450"
+        title="I Dance Location"
+      ></iframe>
+
       <Footer />
     </>
   );

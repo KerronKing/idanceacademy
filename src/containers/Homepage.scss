@@ -17,8 +17,6 @@
   background-color: #00000042;
   border-radius: 7px;
   color: $opening-section-color;
-  // color: black;
-  // color: rgba(255, 255, 255, 0.664);
   font-family: "Courgette", cursive;
   font-size: 2rem;
   height: 65%;
@@ -28,7 +26,7 @@
   position: absolute;
   text-align: center;
   top: 9.5rem;
-  width: 50%;
+  width: 55%;
   z-index: 100;
   h3 {
     font-size: 4rem;
@@ -157,10 +155,23 @@
   @include idance-btn;
 }
 
+iframe {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1111px) {
+  .homepage-first-heading-text p {
+    font-size: 1.5rem;
+  }
+  .homepage-first-heading-text .enroll {
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .homepage-first-heading-text {
     font-size: 1.5rem;
-    height: 50%;
+    height: 60%;
     h3 {
       font-size: 2.5rem;
     }
@@ -197,12 +208,16 @@
   }
 
   .homepage-first-heading-text {
-    font-size: 1rem;
+    // font-size: 1rem;
     h3 {
-      font-size: 1.25rem;
+      font-size: 1.35rem;
     }
     p {
+      font-size: 1.2rem;
       padding-bottom: 25px;
+    }
+    .enroll {
+      font-size: 1.2rem;
     }
   }
 
@@ -217,6 +232,10 @@
     align-content: center;
     display: inline-flex;
     flex-direction: column-reverse !important;
+  }
+
+  iframe {
+    width: 75%;
   }
 }
 
@@ -238,6 +257,10 @@
     width: 75%;
   }
 
+  .aligner {
+    top: 0rem;
+  }
+
   .class-div {
     width: 75%;
   }
@@ -250,16 +273,49 @@
     flex-direction: column !important;
     padding: 0.5rem;
   }
+
+  iframe {
+    height: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .homepage-first-heading-text {
+    height: 50%;
+  }
+  .dance-breakdown {
+    display: none;
+  }
+  iframe {
+    height: 250px !important;
+  }
 }
 
 @media only screen and (max-width: 272px) {
   .homepage-first-heading-text {
     font-size: 0.75rem;
+    height: 40%;
     p {
       padding-bottom: 25px;
+    }
+    .enroll {
+      display: none;
     }
     .learn-more {
       padding: 0.25rem;
     }
+  }
+
+  .register-btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .join-us {
+    margin-bottom: 0px;
+  }
+
+  .aligner {
+    top: 1rem;
   }
 }
