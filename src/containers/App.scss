@@ -1,4 +1,10 @@
 @import "../components/mixins.scss";
+@import "../components/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
 .App {
   position: absolute;
@@ -63,7 +69,7 @@
         color: white;
         text-decoration: none;
         &:hover {
-          color: #b300b3;
+          color: $idance-btn-colour;
         }
       }
     }
@@ -71,6 +77,13 @@
   ul li {
     list-style-type: none;
     padding: 0.8rem;
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        color: $idance-btn-colour;
+      }
+    }
   }
 }
 
@@ -83,8 +96,20 @@
     flex-direction: column !important;
     text-align: center;
   }
-  .footer-list ul {
-    padding-right: 2rem !important;
+  .footer-list {
+    .hider {
+      height: 0px;
+      margin: 0px;
+      visibility: hidden;
+      width: 0px;
+    }
+    ul {
+      padding-right: 2rem !important;
+      li {
+        padding: 1px;
+        margin-bottom: 0px;
+      }
+    }
   }
   .footer-contact {
     justify-content: center;

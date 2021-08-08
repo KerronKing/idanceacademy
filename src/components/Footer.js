@@ -43,21 +43,20 @@ const Footer = () => {
           <div className="footer-list">
             <ul>
               <li>
-                <strong>About I Dance</strong>
+                <Link to="/about"><strong>About I Dance</strong></Link>
               </li>
-              <li>Mission</li>
-              <li>Events</li>
-              <li>Gallery</li>
+              <li className="hider"><Link to="/about">Mission</Link></li>
+              <li className="hider"><Link to="/events">Events</Link></li>
+              <li className="hider"><Link to="/gallery">Gallery</Link></li>
             </ul>
           </div>
           <div className="footer-list">
             <ul>
               <li>
-                <strong>Programs</strong>
+                <strong><Link to="/services">Services</Link></strong>
               </li>
-              <li>Youth</li>
-              <li>Teens</li>
-              <li>Adults</li>
+              <li className="hider"><Link to="/contact">Contact</Link></li>
+              <li className="hider"><Link to="/schedule">Schedule</Link></li>
             </ul>
           </div>
           <div className="footer-list">

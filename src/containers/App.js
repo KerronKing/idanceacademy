@@ -11,7 +11,7 @@ import Gallery from "../containers/Gallery";
 import Ballet from "../services/Ballet";
 import ModernDance from "../services/ModernDance";
 import Jazz from "../services/Jazz";
-import MarriagePackges from "../services/MarriagePackages";
+import WeddingPackges from "../services/WeddingPackages";
 import GraduationPackages from "../services/GraduationPackages";
 import MiscPackages from "../services/MiscPackages";
 import Dancercise from "../services/Dancercise";
@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/dancercise" component={Dancercise} />
         <Route path="/modern-dance" component={ModernDance} />
         <Route path="/jazz" component={Jazz} />
-        <Route path="/marriage-packages" component={MarriagePackges} />
+        <Route path="/wedding-packages" component={WeddingPackges} />
         <Route path="/graduation-packages" component={GraduationPackages} />
         <Route path="/misc-services" component={MiscPackages} />
       </Switch>

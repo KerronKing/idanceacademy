@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 @import "../components/mixins.scss";
 @import "../components/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
 
 .homepage-first {
   height: 800px;
@@ -14,10 +15,9 @@
 }
 
 .homepage-first-heading-text {
-  background-color: #00000042;
   border-radius: 7px;
   color: $opening-section-color;
-  font-family: "Courgette", cursive;
+  font-family: "Style Script", cursive;
   font-size: 2rem;
   height: 65%;
   left: 20%;
@@ -26,7 +26,7 @@
   position: absolute;
   text-align: center;
   top: 9.5rem;
-  width: 55%;
+  width: 65%;
   z-index: 100;
   h3 {
     font-size: 4rem;
@@ -55,10 +55,11 @@
 
 .homepage-second {
   background-image: linear-gradient(
-       to bottom,
-       rgba(245, 246, 252, 0.52),
-       rgba(83, 80, 83, 0.73)
-     ),url("https://drive.google.com/uc?export=view&id=16YcabxtLeBuOskSUFiWtzNSkfgOdRFoN");
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(83, 80, 83, 0.73)
+    ),
+    url("https://drive.google.com/uc?export=view&id=16YcabxtLeBuOskSUFiWtzNSkfgOdRFoN");
   background-position: 20% -30%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,6 +70,7 @@
 }
 
 .heading-container {
+  margin-top: 5rem;
   width: 25%;
 }
 
@@ -122,36 +124,7 @@
 
 .class-second {
   background-color: black;
-  height: 150px;
-}
-
-.btn-beginner {
-  background-color: rgb(123, 195, 253);
-  &:hover {
-    background-color: rgba(123, 194, 253, 0.596);
-    color: white;
-  }
-}
-.btn-youth {
-  background-color: pink;
-  &:hover {
-    background-color: rgb(212, 160, 169);
-  }
-}
-.btn-modern {
-  background-color: purple;
-  color: white;
-  &:hover {
-    background-color: rgb(185, 51, 185);
-    color: black;
-  }
-}
-.btn-jazz {
-  background-color: white;
-  &:hover {
-    background-color: rgb(153, 151, 151);
-    color: white;
-  }
+  height: 200px;
 }
 
 .register-btn {
@@ -163,24 +136,7 @@ iframe {
   margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 1111px) {
-  .homepage-first-heading-text p {
-    font-size: 1.5rem;
-  }
-  .homepage-first-heading-text .enroll {
-    font-size: 1.5rem;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
-  .homepage-first-heading-text {
-    font-size: 1.5rem;
-    height: 60%;
-    h3 {
-      font-size: 2.5rem;
-    }
-  }
-
   .homepage-second {
     padding: 12rem 5rem 12rem 5rem;
   }
@@ -202,25 +158,41 @@ iframe {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .heading-container {
+    margin-top: 10rem;
+  }
+  .class-first {
+    height: 325px;
+  }
+  .class-second {
+    flex-direction: column !important;
+    height: 300px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .homepage-first {
-    height: 600px;
+    height: 610px;
   }
 
   .slider {
-    height: 600px;
+    height: 610px;
   }
 
   .homepage-first-heading-text {
+    left: 5%;
+    padding: 0rem;
+    width: 95%;
     h3 {
-      font-size: 1.35rem;
+      font-size: 2rem;
     }
     p {
-      font-size: 1.2rem;
-      padding-bottom: 25px;
+      font-size: 1.75rem;
+      padding-bottom: 15px;
     }
     .enroll {
-      font-size: 1.2rem;
+      font-size: 1.75rem;
     }
   }
 
@@ -245,7 +217,6 @@ iframe {
 @media only screen and (max-width: 575px) {
   .homepage-first-heading-text {
     left: 5%;
-    width: 75%;
   }
   .join-us {
     height: 250px;
@@ -274,6 +245,7 @@ iframe {
 
   .class-second {
     flex-direction: column !important;
+    height: 325px;
     padding: 0.5rem;
   }
 
@@ -283,9 +255,6 @@ iframe {
 }
 
 @media only screen and (max-width: 340px) {
-  .homepage-first-heading-text {
-    height: 50%;
-  }
   .dance-breakdown {
     display: none;
   }
@@ -320,5 +289,9 @@ iframe {
 
   .aligner {
     top: 1rem;
+  }
+
+  .heading-container {
+    width: 90%;
   }
 }

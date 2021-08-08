@@ -30,7 +30,7 @@ const Homepage = () => {
 
         {/* Opening Section */}
 
-        <div className="homepage-first-heading-text offset-1 col-5">
+        <div className="homepage-first-heading-text col-5">
           <h3>I Dance Academy</h3>
 
           <p className="enroll">Enroll in our September 2021 Dance Classes</p>
@@ -133,7 +133,7 @@ const Homepage = () => {
       {/* Classes Section */}
 
       <div className="container pb-5">
-        <div className="heading-container container mt-5">
+        <div className="heading-container container">
           <h2 className="heading-border pb-5 my-3 text-center">OUR CLASSES</h2>
         </div>
 
@@ -151,7 +151,7 @@ const Homepage = () => {
               </div>
 
               <Link to="/ballet" className="align-self-center">
-                <button className="btn btn-beginner p-md-3 p-sm-2 align-self-center">
+                <button className="btn register-btn p-md-3 p-sm-2 align-self-center">
                   Learn More
                 </button>
               </Link>
@@ -165,7 +165,7 @@ const Homepage = () => {
                 <p className="text-light">Ages 16 and up</p>
               </div>
               <Link to="/dancercise" className="align-self-center">
-                <button className="btn btn-youth p-md-3 p-sm-2 align-self-center">
+                <button className="btn register-btn p-md-3 p-sm-2 align-self-center">
                   Learn More
                 </button>
               </Link>
@@ -180,13 +180,13 @@ const Homepage = () => {
               <div className="d-flex flex-column justify-content-center">
                 <p className="text-light align-self-center"><strong>MODERN DANCE</strong></p>
                 <p className="text-light">
-                  Beginners' Modern Dance: Ages 3 – 8 <br />
-                  Youth Modern Dance: Ages 9 – 17 <br />
-                  Adult Modern Dance: Ages 18 and up
+                  Beginners' Modern: Ages 3 – 8 <br />
+                  Youth Moder: Ages 9 – 17 <br />
+                  Adult Modern: Ages 18 and up
                 </p>
               </div>
               <Link to="/modern-dance" className="align-self-center">
-                <button className="btn btn-modern p-md-3 p-sm-2">
+                <button className="btn register-btn p-md-3 p-sm-2">
                   Learn More
                 </button>
               </Link>
@@ -204,7 +204,7 @@ const Homepage = () => {
                 </p>
               </div>
               <Link to="/jazz" className="align-self-center">
-                <button className="btn btn-jazz p-md-3 p-sm-2 align-self-center">
+                <button className="btn register-btn p-md-3 p-sm-2 align-self-center">
                   Learn More
                 </button>
               </Link>

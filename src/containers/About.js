@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import "./About.scss";
 
@@ -11,10 +10,6 @@ const About = () => (
     {/* Banner */}
 
     <div className="about-us-first-section">
-      <div className="homepage-link">
-        <Link to="/">&lt;&lt; Back to Homepage</Link>
-      </div>
-
       <div className="about-us-banner">
         <h1>About I Dance Academy</h1>
       </div>

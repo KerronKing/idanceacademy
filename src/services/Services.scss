@@ -27,7 +27,7 @@
   margin-bottom: 9rem;
 }
 
-h1 {
+h3 {
   margin-bottom: 30px;
 }
 
@@ -50,6 +50,22 @@ h2 {
   }
 }
 
+.class-grouping {
+  border: 1px solid;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  p {
+    padding: 2rem;
+  }
+}
+.class-description {
+  padding: 2rem 5rem 2rem 5rem;
+}
+.package-description {
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 @media only screen and (max-width: 1122px) {
   .services-section .service-link {
     height: 200px;
@@ -70,9 +86,17 @@ h2 {
     margin-bottom: 30px;
     width: 250px;
   }
-
+  .class {
+    width: 95%;
+  }
   .additionals {
     margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .class-description {
+    flex-direction: column;
   }
 }
 
@@ -92,3 +116,9 @@ h2 {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .class {
+    padding: 0rem;
+    margin-top: 200px;
+  }
+}

@@ -34,7 +34,7 @@ const Services = () => {
         <div className="container-fluid">
           <div className="row justify-content-around d-flex">
             <div className="service-link">
-              <Link to="marriage-packages">Marriage Packages</Link>
+              <Link to="wedding-packages">Wedding Packages</Link>
             </div>
             <div className="service-link">
               <Link to="graduation-packages">Graduation Packages</Link>

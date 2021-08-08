@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 @mixin burger {
   border-radius: 5px;
   background-color:rgb(104, 104, 104);
@@ -13,11 +15,11 @@
 }
 
 @mixin idance-btn {
-  background-color: #b300b3;
+  background-color: $idance-btn-colour;
   border: 0;
-  color: black;
+  color: white;
   &:hover {
-    background-color: #770077;
+    background-color: $idance-btn-hover-colour;
     color: white;
   }
 }
