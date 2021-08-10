@@ -1,0 +1,45 @@
+@import "../components/mixins.scss";
+
+.events {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.808),
+      rgba(117, 19, 93, 0.219)
+    ),
+    url("../images/joost-crop-E3ABJKHr1fk-unsplash.jpg");
+  @include background-sizer;
+  height: 100vh;
+}
+.events-main-section {
+  padding-top: 250px;
+}
+
+.upcoming-section {
+  border: 2px solid;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 30%;
+  @include events-border;
+  .upcoming-first {
+    background-color: black;
+    height: 70px;
+    @include events-border;
+  }
+  .upcoming-second {
+    font-size: 30px;
+    font-weight: bold;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .upcoming-section {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .upcoming-section {
+    width: 80%;
+  }
+}
