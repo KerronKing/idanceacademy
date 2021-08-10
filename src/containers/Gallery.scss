@@ -1,0 +1,26 @@
+.gallery {
+  padding-top: 200px;
+  margin-bottom: 100px;
+  .gal-window {
+    height: 500px;
+    margin: 0 auto;
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .gallery {
+    .gal-window {
+      height: 400px;
+      width: 95%;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .gallery {
+    .gal-window {
+      height: 300px;
+    }
+  }
+}
