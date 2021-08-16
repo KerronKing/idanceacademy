@@ -79,7 +79,7 @@ const Homepage = () => {
             <p>
               A classical yet dramatic style of dance which normally portrays a
               story. This artistic style of dance is performed to Classical
-              music with the use of extremely precise, controlled, formalized
+              Music with the use of extremely precise, controlled, formalized
               movements and steps.
             </p>
           </div>
@@ -92,10 +92,10 @@ const Homepage = () => {
             <br />
             <p>
               Modern Dance is often described as ‘a rebellious form of Ballet’
-              due to its highly expressive style and movement, unlike Ballet
-              which is a more structured dance technique. Modern Dance can often
-              be referred to as Lyrical or Contemporary Dance and is normally
-              accompanied by lyrical and/or percussive music.
+              due to its highly expressive style and movement, whereas
+              Ballet is a more structured dance technique. Modern Dance
+              can often be referred to as Lyrical or Contemporary Dance and is
+              normally accompanied by lyrical and/or percussive music.
             </p>
           </div>
           <div className="col-sm-12 col-md-6 join-us img-2"></div>
@@ -207,10 +207,7 @@ const Homepage = () => {
           </div>
 
           <div className="col-sm-12 col-md-5 offset-md-1 p-0 mb-5 class-div">
-            <div
-              className="class-first"
-              id="jazz"
-            ></div>
+            <div className="class-first" id="jazz"></div>
             <div className="class-second">
               <div className="d-flex flex-column justify-content-center">
                 <p className="text-light align-self-center">

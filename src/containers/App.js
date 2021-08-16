@@ -34,7 +34,7 @@ const App = () => {
         <Route path="/jazz" component={Jazz} />
         <Route path="/wedding-packages" component={WeddingPackges} />
         <Route path="/graduation-packages" component={GraduationPackages} />
-        <Route path="/misc-services" component={MiscPackages} />
+        <Route path="/misc-packages" component={MiscPackages} />
       </Switch>
     </div>
   );

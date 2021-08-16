@@ -31,11 +31,10 @@ const About = () => {
             Founded in 2018, the <i>I Dance Academy</i> was created by our
             artistic director in Trinidad and Tobago. Her passion, dedication
             and commitment to dance, particularly Ballet, Modern and Jazz has
-            motivated her to open this dance school to allow budding dancers in
-            addition to persons who are interested in dance to learn to love and
-            appreciate dance technique and form. The <i>I Dance Academy</i>{" "}
-            allows for a creative space for dancers to blossom into professional
-            dancers.
+            motivated her to open this dance school to allow budding dancers to
+            persons who are interested in dance to learn to love and appreciate
+            dance technique and form. The <i>I Dance Academy</i> allows for a
+            creative space for dancers to blossom into professional dancers.
           </p>
         </div>
         <div className="about-2">
@@ -81,13 +80,15 @@ const About = () => {
           Character Dancing, Folk Dance amongst many other dance genres. Her
           drive and passion for dance has led her in several shows, dance
           workshops, advertisements and competitions. <br /> <br />
-          After completing her secondary school education,{" "}
+          After completing her secondary school education at St. Joseph’s
+          Convent, San Fernando where she represented her school in several
+          dance competitions,{" "}
           <strong>
             <i>Ms. Johncilla</i>
           </strong>{" "}
-          continued to dance with the University Dance Society at the University
+          continued dance with the University Dance Society at the University
           of the West Indies whilst she pursued her Bachelor of Science in
-          Geology and also a Bachelor of Science in Economics. The completion of
+          Geology as well as a Bachelor of Science in Economics. The completion of
           her Master of Business Administration in Sustainable Energy Management
           allowed{" "}
           <strong>

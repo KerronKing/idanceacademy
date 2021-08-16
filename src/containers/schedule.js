@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import uuid from "react-uuid";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -119,6 +120,12 @@ const Schedule = () => {
               <a className="zoom-link" href="https://zoom.us/">
                 ZOOM
               </a>{" "}
+            </p>
+            <p>
+              Should you require alternative arrangements, feel free to{" "}
+              <Link to="/contact" className="zoom-link">
+                contact us
+              </Link>
             </p>
           </div>
           <Collapse in={openSept}>
