@@ -1,5 +1,15 @@
 @import "./variables.scss";
 
+@mixin app {
+  font-family: "Poppins";
+  position: absolute;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
 @mixin burger {
   border-radius: 5px;
   background-color: rgb(104, 104, 104);
@@ -15,12 +25,12 @@
 }
 
 @mixin idance-btn {
-  background-color: $idance-btn-colour;
+  background-color: $idance-btn-colour !important;
   border: 0;
-  color: white;
+  color: white !important;
   &:hover {
-    background-color: $idance-btn-hover-colour;
-    color: white;
+    background-color: $idance-btn-hover-colour !important;
+    color: rgb(230, 228, 228) !important;
   }
 }
 
@@ -37,4 +47,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@mixin index-img-sizer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

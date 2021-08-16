@@ -12,9 +12,11 @@
     justify-content: center;
     height: 250px;
     width: 250px;
+    @include background-sizer;
     @include shadow;
     a {
-      color: black;
+      color: white;
+      font-weight: bold;
       text-decoration: none;
       &:hover {
         color: #b300b3;
@@ -42,11 +44,13 @@ h2 {
   margin-bottom: 100px;
   width: 75%;
   img {
-    border: 1px solid;
     border-radius: 50%;
     height: 250px;
     margin-bottom: 50px;
     width: 250px;
+  }
+  p {
+    text-align: left;
   }
 }
 

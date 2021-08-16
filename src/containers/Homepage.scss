@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 @import "../components/mixins.scss";
 @import "../components/variables.scss";
-@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
 
 .homepage-first {
   height: 800px;
@@ -11,22 +11,23 @@
 }
 
 .slider {
-  height: 800px;
+  height: 875px;
 }
 
 .homepage-first-heading-text {
   border-radius: 7px;
-  color: $opening-section-color;
-  font-family: "Style Script", cursive;
+  color: #f3dcdc;
+  font-family: "Merienda", cursive;
   font-size: 2rem;
+  font-weight: bold;
   height: 65%;
-  left: 20%;
+  left: 9%;
   margin-top: 50px;
   padding: 1.75rem;
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 9.5rem;
-  width: 65%;
+  top: -40.5rem;
+  width: 85%;
   z-index: 100;
   h3 {
     font-size: 4rem;
@@ -58,20 +59,24 @@
       to bottom,
       rgba(245, 246, 252, 0.52),
       rgba(83, 80, 83, 0.73)
-    ),
-    url("https://drive.google.com/uc?export=view&id=16YcabxtLeBuOskSUFiWtzNSkfgOdRFoN");
-  background-position: 20% -30%;
+    );
+  background-position: 20% 3%;
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
-  padding: 7rem 12rem 30rem 12rem;
+  height: 800px;
+  margin-bottom: 5rem;
+  padding: 7rem;
+  position: relative;
+  top: 75px;
+  width: 100%;
 }
 
 .heading-container {
   margin-top: 5rem;
-  width: 25%;
+  width: 25% !important;
 }
 
 .mission {
@@ -86,25 +91,9 @@
 .join-us {
   height: 500px;
 }
+
 .img-1 {
-  background-image: url("https://www.dropbox.com/s/vpzxbai48v0y073/courtney-r-andrews-u5MXF-5y1Ck-unsplash.jpg?raw=1");
-  background-position: 100% 70%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  @include shadow;
-}
-.img-2 {
-  background-image: url("https://www.dropbox.com/s/fa2jy3r2tbrzfac/morgan-petroski-LsMxdW1zWEQ-unsplash.jpg?raw=1");
-  background-position: 100% 70%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  @include shadow;
-}
-.img-3 {
-  background-image: url("https://www.dropbox.com/s/wzc0gjwluknwyem/samantha-weisburg-Vgj9bUwaqT0-unsplash.jpg?raw=1");
-  background-position: 100% 70%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  @include index-img-sizer;
   @include shadow;
 }
 
@@ -118,12 +107,20 @@
 }
 
 .class-first {
-  background-color: white;
   height: 350px;
+  @include index-img-sizer;
+}
+#jazz {
+  background-position: 100% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .class-second {
   background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   height: 200px;
 }
 
@@ -136,15 +133,14 @@ iframe {
   margin-bottom: 2rem;
 }
 
+.our-classes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 1024px) {
-  .homepage-second {
-    padding: 12rem 5rem 12rem 5rem;
-  }
-
-  .heading-container {
-    width: 50%;
-  }
-
   .mission {
     width: 75%;
   }
@@ -154,7 +150,7 @@ iframe {
   }
 
   .class-second {
-    height: 125px;
+    height: 150px;
   }
 }
 
@@ -167,13 +163,42 @@ iframe {
   }
   .class-second {
     flex-direction: column !important;
-    height: 300px;
+    justify-content:initial;
+    height: 250px;
+    p {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 816px) {
+  .homepage-first-heading-text {
+    font-size: 1.75rem;
+    h3 {
+      font-size: 3.25rem;
+    }
+  }
+
+  .homepage-second {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .join-us-section {
+    max-width: 1200px !important;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .homepage-first {
     height: 610px;
+  }
+
+  .homepage-second {
+    font-size: 1.5rem;
+    top: 0px;
   }
 
   .slider {
@@ -183,6 +208,7 @@ iframe {
   .homepage-first-heading-text {
     left: 5%;
     padding: 0rem;
+    top: -31.5rem;
     width: 95%;
     h3 {
       font-size: 2rem;
@@ -212,12 +238,26 @@ iframe {
   iframe {
     width: 75%;
   }
+
+  .class-second {
+    height: 225px;
+  }
+
+  .our-classes {
+    flex-direction: column;
+    width: 95%;
+  }
 }
 
 @media only screen and (max-width: 575px) {
   .homepage-first-heading-text {
     left: 5%;
   }
+
+  .homepage-second {
+    background-position: 50% 3%;
+  }
+
   .join-us {
     height: 250px;
     margin-bottom: 50px;
@@ -235,8 +275,14 @@ iframe {
     top: 0rem;
   }
 
+  .heading-container {
+    margin-top: 5rem;
+    width: 50% !important;
+  }
+
   .class-div {
-    width: 75%;
+    margin: 0 auto;
+    width: 95%;
   }
 
   .class-first {
@@ -245,12 +291,18 @@ iframe {
 
   .class-second {
     flex-direction: column !important;
-    height: 325px;
     padding: 0.5rem;
   }
 
   iframe {
     height: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .homepage-second {
+    font-size: 1rem;
+    height: auto;
   }
 }
 
@@ -292,6 +344,12 @@ iframe {
   }
 
   .heading-container {
-    width: 90%;
+    width: 90% !important;
+  }
+
+  .our-classes {
+    p {
+      font-size: 0.8rem;
+    }
   }
 }

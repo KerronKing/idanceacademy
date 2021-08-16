@@ -1,20 +1,20 @@
 import "./App.scss";
 import { Switch, Route } from "react-router-dom";
 import Homepage from "../containers/Homepage";
-import About from "../containers/About";
-import Contact from "../containers/Contact";
-import Registration from "../containers/Registration";
-import Services from "../services/Services";
-import Schedule from "../containers/Schedule";
-import Events from "../containers/Events";
-import Gallery from "../containers/Gallery";
-import Ballet from "../services/Ballet";
-import ModernDance from "../services/ModernDance";
-import Jazz from "../services/Jazz";
-import WeddingPackges from "../services/WeddingPackages";
-import GraduationPackages from "../services/GraduationPackages";
-import MiscPackages from "../services/MiscPackages";
-import Dancercise from "../services/Dancercise";
+import About from "../containers/about";
+import Contact from "../containers/contact";
+import Registration from "../containers/registration";
+import Services from "../containers/services";
+import Schedule from "../containers/schedule";
+import Events from "../containers/events";
+import Gallery from "../containers/gallery";
+import Ballet from "../containers/ballet";
+import ModernDance from "../containers/modern-dance";
+import Jazz from "../containers/jazz";
+import WeddingPackges from "../containers/services/wedding-packages";
+import GraduationPackages from "../containers/services/graduation-packages";
+import MiscPackages from "../containers/services/misc-packages";
+import Dancercise from "../containers/dancercise";
 
 const App = () => {
   return (

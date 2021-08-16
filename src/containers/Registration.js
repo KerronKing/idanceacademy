@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import "./App.scss";
 
 const Registration = () => (
-  <div>
+  <>
     <Navbar />
     <div className="registration-form">
       <iframe
@@ -18,7 +18,7 @@ const Registration = () => (
         Loading…
       </iframe>
     </div>
-  </div>
+  </>
 );
 
 export default Registration;

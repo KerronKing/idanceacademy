@@ -1,3 +1,5 @@
+@import "../components/mixins.scss";
+
 .about-us-first-section {
   height: 240px;
 }
@@ -23,7 +25,7 @@
 }
 
 .about-1 {
-  margin-top: 6rem;
+  padding-top: 3rem;
   width: 70%;
   img {
     border: 1px solid;
@@ -41,30 +43,27 @@
   justify-content: center;
   width: 30%;
   img {
-    border: 1px solid;
     border-radius: 50%;
-    height: 150px;
+    height: 175px;
     margin-bottom: 4rem;
     position: relative;
-    top: 115px;
-    width: 150px;
+    width: 175px;
   }
 }
 
 .about-founder {
+  padding: 2rem 2rem 2rem 4rem;
   img {
-    border: 1px solid;
-    border-radius: 50%;
-    height: 250px;
+    float: left;
+    height: 350px;
+    margin-right: 2rem;
     width: 250px;
   }
   h2 {
-    padding-left: 4rem;
+    margin-bottom: 2rem;
   }
   p {
     margin-bottom: 4rem;
-    margin-top: 4rem;
-    padding: 2.5rem 2rem 2.5rem 4rem;
     text-align: left;
   }
 }
@@ -91,19 +90,41 @@
   }
 
   .about-founder {
+    h2 {
+      padding-left: 0rem;
+    }
     img {
-      height: 150px;
-      width: 150px;
+      height: 300px;
+      margin-top: 1.5rem;
+      width: 210px;
+    }
+    p {
+      margin-top: 1rem;
     }
   }
 }
 
-@media only screen and (max-width: 455px) {
+@media only screen and (max-width: 550px) {
   .about-1 {
     width: 100%;
   }
   .about-2 {
     display: none;
+  }
+  .about-founder {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about-founder {
+    padding: 2rem;
+    img {
+      float: none;
+    }
+    p {
+      margin-top: 3rem;
+    }
   }
 }
 
@@ -114,5 +135,19 @@
 
   .about-founder {
     font-size: 10px;
+  }
+
+  .about-founder {
+    h2 {
+      padding-left: 0rem;
+    }
+    img {
+      height: 200px;
+      margin-top: 1.5rem;
+      width: 130px;
+    }
+    p {
+      margin-top: 1rem;
+    }
   }
 }

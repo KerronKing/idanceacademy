@@ -1,28 +1,16 @@
 @import "../components/mixins.scss";
 @import "../components/variables.scss";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
-
-body {
-  font-family: 'Poppins', sans-serif;
-}
 
 .App {
+  font-family: 'Poppins', sans-serif;
   position: absolute;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
   width: 100%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  p {
+    word-break: break-word;
   }
 }
 
@@ -41,14 +29,6 @@ body {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .footer {
   background: black;
@@ -91,7 +71,13 @@ body {
   padding-top: 160px;
 }
 
-@media only screen and (max-width: 845px) {
+.footer-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 892px) {
   .footer-first {
     flex-direction: column !important;
     text-align: center;
@@ -154,7 +140,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 352px) {
+@media only screen and (max-width: 369px) {
   .footer-contact img {
     height: 0px;
     visibility: hidden;
