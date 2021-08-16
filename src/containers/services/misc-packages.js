@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import "../Services.scss";
+import miscImg from "../../images/misc-service-2.jpeg";
+
 
 const MiscPackages = () => {
   return (
@@ -11,7 +13,7 @@ const MiscPackages = () => {
 
       <div className="class">
         <img
-          src="https://drive.google.com/uc?export=view&id=1bwjdCDzptrzPmFHNFWqr2hXXKaHpXCLT"
+          src={miscImg}
           alt="old couple slow dancing"
           loading="eager"
         />

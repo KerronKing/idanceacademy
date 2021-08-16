@@ -59,7 +59,7 @@
       to bottom,
       rgba(245, 246, 252, 0.52),
       rgba(83, 80, 83, 0.73)
-    );
+    ), url("../images/homepage-second.jpeg");
   background-position: 20% 3%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,6 +93,22 @@
 }
 
 .img-1 {
+  background-image: url('../images/homepage-ballet-join.jpeg');
+  @include index-img-sizer;
+  @include shadow;
+}
+.img-2 {
+  background-image: url('../images/homepage-modern-join.jpeg');
+  @include index-img-sizer;
+  @include shadow;
+}
+.img-3 {
+  background-image: url('../images/homepage-jazz-join.jpeg');
+  @include index-img-sizer;
+  @include shadow;
+}
+.img-4 {
+  background-image: url('../images/homepage-dance-join.jpeg');
   @include index-img-sizer;
   @include shadow;
 }
@@ -110,7 +126,17 @@
   height: 350px;
   @include index-img-sizer;
 }
+#ballet {
+  background-image: url('../images/class-ballet.jpeg');
+}
+#modern {
+  background-image: url('../images//class-modern.jpeg');
+}
+#dancercise {
+  background-image: url('../images/class-dance.jpeg');
+}
 #jazz {
+  background-image: url('../images/class-jazz.jpeg');
   background-position: 100% 20%;
   background-size: cover;
   background-repeat: no-repeat;

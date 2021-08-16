@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Services.scss";
+import jazzImg from "../images/jazz-service-2.jpeg";
 
 const Jazz = () => {
   return (
@@ -11,7 +12,7 @@ const Jazz = () => {
 
       <div className="class">
         <img
-          src="https://drive.google.com/uc?export=view&id=1CbcsWl7FWxdsmMecF82Xt0xIk7wMYGtH"
+          src={jazzImg}
           alt="interpretive dancer"
           loading="lazy"
           importance="low"

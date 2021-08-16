@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Services.scss";
+import balletImg from "../images/ballet-service-2.jpeg";
 
 const Ballet = () => {
   return (
@@ -11,7 +12,7 @@ const Ballet = () => {
 
       <div className="class">
         <img
-          src="https://drive.google.com/uc?export=view&id=1ZmNCUzDzgtBnJc3KU6so1gN1eDIL1x0U"
+          src={balletImg}
           alt="ballet dancer"
           loading="lazy"
           importance="low"

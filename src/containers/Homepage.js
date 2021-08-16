@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import AwesomeSlider from "react-awesome-slider";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import ImageDiv from "../components/ImageDiv";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import "./Homepage.scss";
@@ -50,10 +49,7 @@ const Homepage = () => {
 
       {/* Short Company Info Section */}
 
-      <ImageDiv
-        source="https://drive.google.com/uc?export=view&id=16YcabxtLeBuOskSUFiWtzNSkfgOdRFoN"
-        classType="homepage-second"
-      >
+      <div className="homepage-second">
         <div>
           <div className="mission container">
             Founded in 2018, the I Dance Academy was created by our artistic
@@ -65,7 +61,7 @@ const Homepage = () => {
             a creative space for dancers to blossom into professional dancers.
           </div>
         </div>
-      </ImageDiv>
+      </div>
 
       {/* Join Us */}
 
@@ -75,10 +71,7 @@ const Homepage = () => {
         </div>
 
         <div className="row justify-content-around mt-5">
-          <ImageDiv
-            source="https://drive.google.com/uc?export=view&id=1r-azzAOFGDJ7frsHIjThJ6njdoejnRyr"
-            classType="col-sm-12 col-md-6 join-us img-1"
-          ></ImageDiv>
+          <div className="col-sm-12 col-md-6 join-us img-1"></div>
           <div className="col-sm-12 col-md-4 offset-md-1 join-us-text aligner">
             <h4>Ballet</h4>
             <br />
@@ -105,17 +98,11 @@ const Homepage = () => {
               accompanied by lyrical and/or percussive music.
             </p>
           </div>
-          <ImageDiv
-            source="https://drive.google.com/uc?export=view&id=1Er74RLKsvlMbM_qlBr4392ohqLoNwyiE"
-            classType="col-sm-12 col-md-6 join-us img-1"
-          ></ImageDiv>
+          <div className="col-sm-12 col-md-6 join-us img-2"></div>
         </div>
 
         <div className="row justify-content-around mt-5">
-          <ImageDiv
-            source="https://www.dropbox.com/s/wzc0gjwluknwyem/samantha-weisburg-Vgj9bUwaqT0-unsplash.jpg?raw=1"
-            classType="col-sm-12 col-md-6 border join-us img-1"
-          ></ImageDiv>
+          <div className="col-sm-12 col-md-6 border join-us img-3"></div>
           <div className="col-sm-12 col-md-4 offset-md-1 join-us-text aligner">
             <h4>Jazz</h4>
             <br />
@@ -144,10 +131,7 @@ const Homepage = () => {
               Routines.
             </p>
           </div>
-          <ImageDiv
-            source="https://drive.google.com/uc?export=view&id=1s6uZ2jMH3EFLn3QVnh-zwav6lBI-BBHl"
-            classType="col-sm-12 col-md-6 join-us img-1"
-          ></ImageDiv>
+          <div className="col-sm-12 col-md-6 join-us img-4"></div>
         </div>
       </div>
 
@@ -160,10 +144,7 @@ const Homepage = () => {
 
         <div className="mt-5 our-classes">
           <div className="col-md-5 p-0 mb-5 class-div">
-            <ImageDiv
-              source="https://drive.google.com/uc?export=view&id=1dDGRTG5Zo7XcHeCyN9t7_-2CHFMM0ScU"
-              classType="class-first"
-            ></ImageDiv>
+            <div className="class-first" id="ballet"></div>
             <div className="class-second">
               <div className="d-flex flex-column justify-content-center">
                 <p className="text-light align-self-center">
@@ -185,10 +166,7 @@ const Homepage = () => {
           </div>
 
           <div className="col-sm-12 col-md-5 offset-md-1 p-0 mb-5 class-div">
-            <ImageDiv
-              source="https://drive.google.com/uc?export=view&id=1XZC-9QIho8UkuPEJIFcoKykLHaYOSiGd"
-              classType="class-first"
-            ></ImageDiv>
+            <div id="dancercise" className="class-first"></div>
             <div className="class-second">
               <div className="d-flex flex-column justify-content-center">
                 <p className="text-light align-self-center">
@@ -207,10 +185,7 @@ const Homepage = () => {
 
         <div className="mt-5 our-classes mt-md-5">
           <div className="col-md-5 p-0 mb-5 class-div">
-            <ImageDiv
-              source="https://drive.google.com/uc?export=view&id=1ARPcvRsmXc4C_LYnF3WhCPHsb2-wiD6a"
-              classType="class-first"
-            ></ImageDiv>
+            <div className="class-first" id="modern"></div>
             <div className="class-second">
               <div className="d-flex flex-column justify-content-center">
                 <p className="text-light align-self-center">
@@ -232,10 +207,10 @@ const Homepage = () => {
           </div>
 
           <div className="col-sm-12 col-md-5 offset-md-1 p-0 mb-5 class-div">
-            <ImageDiv
-              source="https://drive.google.com/uc?export=view&id=1iNMQf8gJzPFFbKheOLtsDdNtYq6Yu_a5"
-              classType="class-first"
-            ></ImageDiv>
+            <div
+              className="class-first"
+              id="jazz"
+            ></div>
             <div className="class-second">
               <div className="d-flex flex-column justify-content-center">
                 <p className="text-light align-self-center">

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import "../Services.scss";
+import wedImg from "../../images/wedding-service-2.jpeg";
 
 const WeddingPackages = () => {
   return (
@@ -11,7 +12,7 @@ const WeddingPackages = () => {
 
       <div className="class">
         <img
-          src="https://drive.google.com/uc?export=view&id=13eAum2Gn0jlTo5HbujtlwD5AOweRicI_"
+          src={wedImg}
           alt="wedded bliss"
         />
         <h1>Wedding Packages</h1>

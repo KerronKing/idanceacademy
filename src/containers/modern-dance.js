@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Services.scss";
+import modernImg from "../images/modern-service-2.jpg";
 
 const ModernDance = () => {
   return (
@@ -11,7 +12,7 @@ const ModernDance = () => {
 
       <div className="class">
         <img
-          src="https://drive.google.com/uc?export=view&id=1970T9rwbkANPsD6dXEBm9zeIi84z7waW"
+          src={modernImg}
           alt="modern dancers"
           loading="lazy"
           importance="low"

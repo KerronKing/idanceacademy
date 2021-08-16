@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import "../Services.scss";
+import gradImg from "../../images/grad-service-2.jpeg";
 
 const GraduationPackages = () => {
   return (
@@ -11,7 +12,7 @@ const GraduationPackages = () => {
 
       <div className="class">
         <img
-          src="https://drive.google.com/uc?export=view&id=1c3mrr32rawLHQqRVQ8Bdhc-VskCkQSXG"
+          src={gradImg}
           alt="happy graduands"
         />
         <h1>Graduation Packages</h1>
