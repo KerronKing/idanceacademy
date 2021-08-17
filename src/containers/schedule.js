@@ -109,7 +109,7 @@ const Schedule = () => {
         </div>
         <div className="schedule-content">
           <div id="schedule-instructions">
-            <p className="my-5">
+            <p>
               Select any one of the ‘month’ buttons on the left or top of your
               screen to display our monthly dance schedule. Click the month that
               is currently in view again to see another month’s dance schedule.{" "}
@@ -126,6 +126,7 @@ const Schedule = () => {
               <Link to="/contact" className="zoom-link">
                 contact us
               </Link>
+              .
             </p>
           </div>
           <Collapse in={openSept}>
