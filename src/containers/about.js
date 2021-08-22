@@ -39,19 +39,19 @@ const About = () => {
         </div>
         <div className="about-2">
           <img
-            src="https://drive.google.com/uc?export=view&id=1PaQ3G1gF1rdQBjFr5Zu779v8pn-Baizj"
+            src="https://www.dropbox.com/s/rummwfhziiceou6/about-1.jpeg?raw=1"
             alt="children lifting their hands"
             loading="lazy"
             importance="low"
           />
           <img
-            src="https://drive.google.com/uc?export=view&id=1LfvsBS-etXNI7d9wFI1Z_9vUwVxYOun_"
+            src="https://www.dropbox.com/s/2i0jetorj5rttaw/about-2.jpeg?raw=1"
             loading="lazy"
             importance="low"
             alt="children posing"
           />
           <img
-            src="https://drive.google.com/uc?export=view&id=1MCCFYW7gBf4GRitVLe1fbQMC9sphOVOo"
+            src="https://www.dropbox.com/s/3lzq6zqlq7vhpww/about-3.jpeg?raw=1"
             loading="lazy"
             importance="low"
             alt="children posing"
