@@ -1,6 +1,6 @@
-const septemberSchedule = [
+const firstMonthSchedule = [
   {
-    day: "11th September",
+    day: "15th January",
     times: [
       "8:30am-9:30am",
       "10:00am–11:00am",
@@ -19,27 +19,27 @@ const septemberSchedule = [
     ],
   },
   {
-    day: "13th September",
+    day: "17th January",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "14th September",
+    day: "18th January",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "15th September",
+    day: "19th January",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "16th September",
+    day: "20th January",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "18th September",
+    day: "22nd January",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -58,22 +58,27 @@ const septemberSchedule = [
     ],
   },
   {
-    day: "20th September",
+    day: "24th January",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "21st September",
+    day: "25th January",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "23rd September",
+    day: "26th January",
+    times: ["6:00pm-7:00pm"],
+    classTypes: ["Adult Jazz Dance"],
+  },
+  {
+    day: "27th January",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "25th September",
+    day: "29th January",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -92,25 +97,10 @@ const septemberSchedule = [
     ],
   },
   {
-    day: "27th September",
+    day: "31st January",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
-  },
-  {
-    day: "28th September",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Dancercise"],
-  },
-  {
-    day: "29th September",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Jazz Dance"],
-  },
-  {
-    day: "30th September",
-    times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
-    classTypes: ["Adult Ballet", "Dancercise"],
-  },
+  }
 ];
 
-export { septemberSchedule };
+export { firstMonthSchedule };

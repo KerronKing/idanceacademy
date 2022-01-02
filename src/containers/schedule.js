@@ -6,60 +6,60 @@ import Footer from "../components/Footer";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
 import DateBlock from "../components/DateBlock";
-import { septemberSchedule } from "../data/sept-data";
-import { octoberSchedule } from "../data/oct-data";
-import { novemberSchedule } from "../data/nov-data";
-import { decemberSchedule } from "../data/dec-data";
+import { firstMonthSchedule } from "../data/first-month-data";
+import { secondMonthSchedule } from "../data/second-month-data";
+import { thirdMonthSchedule } from "../data/third-month-data";
+import { fourthMonthSchedule } from "../data/fourth-month-data";
 import "./Schedule.scss";
 
 const Schedule = () => {
-  const [openSept, setOpenSept] = useState(false);
-  const [openOct, setOpenOct] = useState(false);
-  const [openNov, setOpenNov] = useState(false);
-  const [openDec, setOpenDec] = useState(false);
+  const [openFirst, setOpenFirst] = useState(false);
+  const [openSecond, setOpenSecond] = useState(false);
+  const [openThird, setOpenThird] = useState(false);
+  const [openFourth, setOpenFourth] = useState(false);
   const [instrct, setInstrct] = useState(true);
 
   const handleClick = () => {
-    const september = document.getElementById("september");
-    const october = document.getElementById("october");
-    const november = document.getElementById("november");
-    const december = document.getElementById("december");
+    const firstmonth = document.getElementById("firstmonth");
+    const secondmonth = document.getElementById("secondmonth");
+    const thirdmonth = document.getElementById("thirdmonth");
+    const fourthmonth = document.getElementById("fourthmonth");
     const scheduleInstructions = document.getElementById(
       "schedule-instructions"
     );
 
-    september.onclick = () => {
-      setOpenSept(true);
-      setOpenOct(false);
-      setOpenNov(false);
-      setOpenDec(false);
+    firstmonth.onclick = () => {
+      setOpenFirst(true);
+      setOpenSecond(false);
+      setOpenThird(false);
+      setOpenFourth(false);
       scheduleInstructions.style.display = "none";
       setInstrct(!instrct);
     };
 
-    october.onclick = () => {
-      setOpenSept(false);
-      setOpenOct(true);
-      setOpenNov(false);
-      setOpenDec(false);
+    secondmonth.onclick = () => {
+      setOpenFirst(false);
+      setOpenSecond(true);
+      setOpenThird(false);
+      setOpenFourth(false);
       scheduleInstructions.style.display = "none";
       setInstrct(!instrct);
     };
 
-    november.onclick = () => {
-      setOpenSept(false);
-      setOpenOct(false);
-      setOpenNov(true);
-      setOpenDec(false);
+    thirdmonth.onclick = () => {
+      setOpenFirst(false);
+      setOpenSecond(false);
+      setOpenThird(true);
+      setOpenFourth(false);
       scheduleInstructions.style.display = "none";
       setInstrct(!instrct);
     };
 
-    december.onclick = () => {
-      setOpenSept(false);
-      setOpenOct(false);
-      setOpenNov(false);
-      setOpenDec(true);
+    fourthmonth.onclick = () => {
+      setOpenFirst(false);
+      setOpenSecond(false);
+      setOpenThird(false);
+      setOpenFourth(true);
       scheduleInstructions.style.display = "none";
       setInstrct(!instrct);
     };
@@ -76,35 +76,35 @@ const Schedule = () => {
         <div className="schedule-links">
           <Button
             onClick={handleClick}
-            aria-controls="september-schedule"
-            aria-expanded={openSept}
-            id="september"
+            aria-controls="firstmonth-schedule"
+            aria-expanded={openFirst}
+            id="firstmonth"
           >
-            September
+            January
           </Button>
           <Button
             onClick={handleClick}
-            aria-controls="october-schedule"
-            aria-expanded={openOct}
-            id="october"
+            aria-controls="secondmonth-schedule"
+            aria-expanded={openSecond}
+            id="secondmonth"
           >
-            October
+            February
           </Button>
           <Button
             onClick={handleClick}
-            aria-controls="november-schedule"
-            aria-expanded={openNov}
-            id="november"
+            aria-controls="thirdmonth-schedule"
+            aria-expanded={openThird}
+            id="thirdmonth"
           >
-            November
+            March
           </Button>
           <Button
             onClick={handleClick}
-            aria-controls="december-schedule"
-            aria-expanded={openDec}
-            id="december"
+            aria-controls="fourthmonth-schedule"
+            aria-expanded={openFourth}
+            id="fourthmonth"
           >
-            December
+            April
           </Button>
         </div>
         <div className="schedule-content">
@@ -115,7 +115,7 @@ const Schedule = () => {
               is currently in view again to see another month’s dance schedule.{" "}
             </p>
             <p>
-              All classes for the September - December 2021 Term, will be taught
+              All classes for the January - April 2022 Term, will be taught
               via{" "}
               <a className="zoom-link" href="https://zoom.us/">
                 ZOOM
@@ -129,9 +129,9 @@ const Schedule = () => {
               .
             </p>
           </div>
-          <Collapse in={openSept}>
-            <div className="schedule-breakdown" id="september-schedule">
-              {septemberSchedule.map((item) => (
+          <Collapse in={openFirst}>
+            <div className="schedule-breakdown" id="firstmonth-schedule">
+              {firstMonthSchedule.map((item) => (
                 <DateBlock
                   day={item.day}
                   times={item.times}
@@ -142,9 +142,9 @@ const Schedule = () => {
             </div>
           </Collapse>
 
-          <Collapse in={openOct}>
-            <div className="schedule-breakdown" id="october-schedule">
-              {octoberSchedule.map((item) => (
+          <Collapse in={openSecond}>
+            <div className="schedule-breakdown" id="secondmonth-schedule">
+              {secondMonthSchedule.map((item) => (
                 <DateBlock
                   day={item.day}
                   times={item.times}
@@ -155,9 +155,9 @@ const Schedule = () => {
             </div>
           </Collapse>
 
-          <Collapse in={openNov}>
-            <div className="schedule-breakdown" id="november-schedule">
-              {novemberSchedule.map((item) => (
+          <Collapse in={openThird}>
+            <div className="schedule-breakdown" id="thirdmonth-schedule">
+              {thirdMonthSchedule.map((item) => (
                 <DateBlock
                   day={item.day}
                   times={item.times}
@@ -168,9 +168,9 @@ const Schedule = () => {
             </div>
           </Collapse>
 
-          <Collapse in={openDec}>
-            <div className="schedule-breakdown" id="december-schedule">
-              {decemberSchedule.map((item) => (
+          <Collapse in={openFourth}>
+            <div className="schedule-breakdown" id="fourthmonth-schedule">
+              {fourthMonthSchedule.map((item) => (
                 <DateBlock
                   day={item.day}
                   times={item.times}

@@ -1,45 +1,21 @@
-const octoberSchedule = [
+const thirdMonthSchedule = [
   {
-    day: "2nd October",
-    times: [
-      "8:30am-9:30am",
-      "10:00am–11:00am",
-      "11:30am–12:30pm",
-      "1:30pm-2:30pm",
-      "3:00pm-4:00pm",
-      "4:30pm-5:30pm",
-    ],
-    classTypes: [
-      "Beginner Modern Dance",
-      "Beginner Ballet",
-      "Beginner Jazz Dance",
-      "Youth Modern Dance",
-      "Youth Ballet",
-      "Youth Jazz Dance",
-    ],
-  },
-  {
-    day: "4th October",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Modern Dance"],
-  },
-  {
-    day: "5th October",
+    day: "1st March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "6th October",
+    day: "2nd March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "7th October",
+    day: "3rd March",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "9th October",
+    day: "5th March",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -58,27 +34,27 @@ const octoberSchedule = [
     ],
   },
   {
-    day: "11th October",
+    day: "7th March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "12th October",
+    day: "8th March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "13th October",
+    day: "9th March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "14th October",
+    day: "10th March",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "16th October",
+    day: "12th March",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -97,27 +73,27 @@ const octoberSchedule = [
     ],
   },
   {
-    day: "18th October",
+    day: "14th March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "19th October",
+    day: "15th March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "20th October",
+    day: "16th March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "21st October",
+    day: "17th March",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "23rd October",
+    day: "19th March",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -136,27 +112,27 @@ const octoberSchedule = [
     ],
   },
   {
-    day: "25th October",
+    day: "21st March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "26th October",
+    day: "22nd March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "27th October",
+    day: "23rd March",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "28th October",
+    day: "24th March",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "30th October",
+    day: "26th March",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -173,7 +149,27 @@ const octoberSchedule = [
       "Youth Ballet",
       "Youth Jazz Dance",
     ],
+  },
+  {
+    day: "28th March",
+    times: ["6:00pm-7:00pm"],
+    classTypes: ["Adult Modern Dance"],
+  },
+  {
+    day: "29th March",
+    times: ["6:00pm-7:00pm"],
+    classTypes: ["Dancercise"],
+  },
+  {
+    day: "30th March",
+    times: ["6:00pm-7:00pm"],
+    classTypes: ["Adult Jazz Dance"],
+  },
+  {
+    day: "31st March",
+    times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
+    classTypes: ["Adult Ballet", "Dancercise"],
   },
 ];
 
-export { octoberSchedule };
+export { thirdMonthSchedule };

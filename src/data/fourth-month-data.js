@@ -1,16 +1,6 @@
-const decemberSchedule = [
+const fourthMonthSchedule = [
   {
-    day: "1st December",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Jazz Dance"],
-  },
-  {
-    day: "2nd December",
-    times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
-    classTypes: ["Adult Ballet", "Dancercise"],
-  },
-  {
-    day: "4th December",
+    day: "2nd April",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -29,27 +19,27 @@ const decemberSchedule = [
     ],
   },
   {
-    day: "6th December",
+    day: "4th April",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "7th December",
+    day: "5th April",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "8th December",
+    day: "6th April",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "9th December",
+    day: "7th April",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "11th December",
+    day: "9th April",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -69,4 +59,4 @@ const decemberSchedule = [
   },
 ];
 
-export { decemberSchedule };
+export { fourthMonthSchedule };

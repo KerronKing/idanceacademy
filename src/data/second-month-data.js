@@ -1,64 +1,25 @@
-const novemberSchedule = [
+const secondMonthSchedule = [
   {
-    day: "1st November",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Modern Dance"],
-  },
-  {
-    day: "2nd November",
+    day: "1st February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "3rd November",
+    day: "2nd February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "6th November",
-    times: [
-      "8:30am-9:30am",
-      "10:00am-11:00am",
-      "11:30am-12:30pm",
-      "1:30pm-2:30pm",
-      "3:00pm-4:00pm",
-      "4:30pm-5:30pm",
-    ],
-    classTypes: [
-      "Beginner Modern Dance",
-      "Beginner Ballet",
-      "Beginner Jazz Dance",
-      "Youth Modern Dance",
-      "Youth Ballet",
-      "Youth Jazz Dance",
-    ],
-  },
-  {
-    day: "8th November",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Modern Dance"],
-  },
-  {
-    day: "9th November",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Dancercise"],
-  },
-  {
-    day: "10th November",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Jazz Dance"],
-  },
-  {
-    day: "11th November",
+    day: "3rd February",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "13th November",
+    day: "5th February",
     times: [
       "8:30am-9:30am",
-      "10:00am-11:00am",
-      "11:30am-12:30pm",
+      "10:00am–11:00am",
+      "11:30am–12:30pm",
       "1:30pm-2:30pm",
       "3:00pm-4:00pm",
       "4:30pm-5:30pm",
@@ -73,27 +34,27 @@ const novemberSchedule = [
     ],
   },
   {
-    day: "15th November",
+    day: "7th February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "16th November",
+    day: "8th February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "17th November",
+    day: "9th February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "18th November",
+    day: "10th February",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "20th November",
+    day: "12th February",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -112,27 +73,27 @@ const novemberSchedule = [
     ],
   },
   {
-    day: "22nd November",
+    day: "14th February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "23rd November",
+    day: "15th February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
   },
   {
-    day: "24th November",
+    day: "16th February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Jazz Dance"],
   },
   {
-    day: "25th November",
+    day: "17th February",
     times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
     classTypes: ["Adult Ballet", "Dancercise"],
   },
   {
-    day: "27th November",
+    day: "19th February",
     times: [
       "8:30am-9:30am",
       "10:00am-11:00am",
@@ -151,15 +112,49 @@ const novemberSchedule = [
     ],
   },
   {
-    day: "29th November",
+    day: "21st February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Adult Modern Dance"],
   },
   {
-    day: "30th November",
+    day: "22nd February",
     times: ["6:00pm-7:00pm"],
     classTypes: ["Dancercise"],
+  },
+  {
+    day: "23rd February",
+    times: ["6:00pm-7:00pm"],
+    classTypes: ["Adult Jazz Dance"],
+  },
+  {
+    day: "24th February",
+    times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
+    classTypes: ["Adult Ballet", "Dancercise"],
+  },
+  {
+    day: "26th February",
+    times: [
+      "8:30am-9:30am",
+      "10:00am-11:00am",
+      "11:30am-12:30pm",
+      "1:30pm-2:30pm",
+      "3:00pm-4:00pm",
+      "4:30pm-5:30pm",
+    ],
+    classTypes: [
+      "Beginner Modern Dance",
+      "Beginner Ballet",
+      "Beginner Jazz Dance",
+      "Youth Modern Dance",
+      "Youth Ballet",
+      "Youth Jazz Dance",
+    ],
+  },
+  {
+    day: "28th February",
+    times: ["6:00pm-7:00pm"],
+    classTypes: ["Adult Modern Dance"],
   }
 ];
 
-export { novemberSchedule };
+export { secondMonthSchedule };

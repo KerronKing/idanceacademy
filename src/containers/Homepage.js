@@ -36,7 +36,7 @@ const Homepage = () => {
           <h3>I Dance Academy</h3>
 
           <p className="enroll">
-            Enroll in our September - December 2021 Dance Classes
+            Enroll in our January - April 2022 Dance Classes
           </p>
           <p className="dance-breakdown">
             Ballet &#8226; Dancercise &#8226; Jazz &#8226; Modern
