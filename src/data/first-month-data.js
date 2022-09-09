@@ -1,105 +1,136 @@
 const firstMonthSchedule = [
   {
-    day: "15th January",
+    day: "10th September",
     times: [
       "8:30am-9:30am",
-      "10:00am–11:00am",
-      "11:30am–12:30pm",
-      "1:30pm-2:30pm",
-      "3:00pm-4:00pm",
-      "4:30pm-5:30pm",
+      "10:15am–11:15am",
+      "12:00pm–1:00pm",
+      "2:00pm-3:00pm",
     ],
     classTypes: [
-      "Beginner Modern Dance",
-      "Beginner Ballet",
-      "Beginner Jazz Dance",
-      "Youth Modern Dance",
-      "Youth Ballet",
-      "Youth Jazz Dance",
+      "Modern (Kids/Youth)",
+      "Ballet (Kids/Youth)",
+      "Ballet (Kids)",
+      "Jazz (Kids / Youth)"
+    ]
+  },
+  {
+    day: "12th September",
+    times: ["5:00pm-6:00pm"],
+    classTypes: ["Ballet (Youth)"],
+  },
+  {
+    day: "13th September",
+    times: [
+      "4:30pm-5:30pm",
+      "6:00pm-7:00pm"
     ],
+    classTypes: [
+      "Modern (Adult)",
+      "Dancercise"
+    ]
   },
   {
-    day: "17th January",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Modern Dance"],
+    day: "14th September",
+    times: ["5:30pm-6:30pm"],
+    classTypes: ["Ballet (Adult)"],
   },
   {
-    day: "18th January",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Dancercise"],
+    day: "15th September",
+    times: [
+      "4:30pm-5:30pm", 
+      "6:00pm-7:00pm"
+    ],
+    classTypes: [
+      "Jazz (Adult)", 
+      "Dancercise"
+    ]
   },
   {
-    day: "19th January",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Jazz Dance"],
-  },
-  {
-    day: "20th January",
-    times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
-    classTypes: ["Adult Ballet", "Dancercise"],
-  },
-  {
-    day: "22nd January",
+    day: "17th September",
     times: [
       "8:30am-9:30am",
-      "10:00am-11:00am",
-      "11:30am-12:30pm",
-      "1:30pm-2:30pm",
-      "3:00pm-4:00pm",
-      "4:30pm-5:30pm",
+      "10:15am–11:15am",
+      "12:00pm–1:00pm",
+      "2:00pm-3:00pm",
     ],
     classTypes: [
-      "Beginner Modern Dance",
-      "Beginner Ballet",
-      "Beginner Jazz Dance",
-      "Youth Modern Dance",
-      "Youth Ballet",
-      "Youth Jazz Dance",
-    ],
+      "Modern (Kids/Youth)",
+      "Ballet (Kids/Youth)",
+      "Ballet (Kids)",
+      "Jazz (Kids / Youth)"
+    ]
   },
   {
-    day: "24th January",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Modern Dance"],
+    day: "19th September",
+    times: ["5:00pm-6:00pm"],
+    classTypes: ["Ballet (Youth)"],
   },
   {
-    day: "25th January",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Dancercise"],
-  },
-  {
-    day: "26th January",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Jazz Dance"],
-  },
-  {
-    day: "27th January",
-    times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
-    classTypes: ["Adult Ballet", "Dancercise"],
-  },
-  {
-    day: "29th January",
+    day: "20th September",
     times: [
-      "8:30am-9:30am",
-      "10:00am-11:00am",
-      "11:30am-12:30pm",
-      "1:30pm-2:30pm",
-      "3:00pm-4:00pm",
       "4:30pm-5:30pm",
+      "6:00pm-7:00pm"
     ],
     classTypes: [
-      "Beginner Modern Dance",
-      "Beginner Ballet",
-      "Beginner Jazz Dance",
-      "Youth Modern Dance",
-      "Youth Ballet",
-      "Youth Jazz Dance",
-    ],
+      "Modern (Adult)",
+      "Dancercise"
+    ]
   },
   {
-    day: "31st January",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Modern Dance"],
+    day: "21st September",
+    times: ["5:30pm-6:30pm"],
+    classTypes: ["Ballet (Adult)"],
+  },
+  {
+    day: "22nd September",
+    times: [
+      "4:30pm-5:30pm", 
+      "6:00pm-7:00pm"
+    ],
+    classTypes: [
+      "Jazz (Adult)", 
+      "Dancercise"
+    ]
+  },
+  {
+    day: "24th September",
+    times: [],
+    classTypes: [
+      "Republic Day"
+    ]
+  },
+  {
+    day: "26th September",
+    times: ["5:00pm-6:00pm"],
+    classTypes: ["Ballet (Youth)"],
+  },
+  {
+    day: "27th September",
+    times: [
+      "4:30pm-5:30pm",
+      "6:00pm-7:00pm"
+    ],
+    classTypes: [
+      "Modern (Adult)",
+      "Dancercise"
+    ]
+  },
+  {
+    day: "28th September",
+    times: ["5:30pm-6:30pm"],
+    classTypes: ["Ballet (Adult)"],
+  },
+  {
+    day: "29th September",
+    times: [
+      "4:30pm-5:30pm", 
+      "6:00pm-7:00pm"
+    ],
+    classTypes: [
+      "Jazz (Adult)", 
+      "Dancercise"
+    ]
   }
 ];
 

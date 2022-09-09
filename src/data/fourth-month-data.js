@@ -1,62 +1,77 @@
 const fourthMonthSchedule = [
   {
-    day: "2nd April",
+    day: "1st December",
     times: [
-      "8:30am-9:30am",
-      "10:00am-11:00am",
-      "11:30am-12:30pm",
-      "1:30pm-2:30pm",
-      "3:00pm-4:00pm",
-      "4:30pm-5:30pm",
+      "4:30pm-5:30pm", 
+      "6:00pm-7:00pm"
     ],
     classTypes: [
-      "Beginner Modern Dance",
-      "Beginner Ballet",
-      "Beginner Jazz Dance",
-      "Youth Modern Dance",
-      "Youth Ballet",
-      "Youth Jazz Dance",
-    ],
+      "Jazz (Adult)", 
+      "Dancercise"
+    ]
   },
   {
-    day: "4th April",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Modern Dance"],
-  },
-  {
-    day: "5th April",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Dancercise"],
-  },
-  {
-    day: "6th April",
-    times: ["6:00pm-7:00pm"],
-    classTypes: ["Adult Jazz Dance"],
-  },
-  {
-    day: "7th April",
-    times: ["5:30pm-6:30pm", "6:45pm-7:45pm"],
-    classTypes: ["Adult Ballet", "Dancercise"],
-  },
-  {
-    day: "9th April",
+    day: "3rd December",
     times: [
       "8:30am-9:30am",
-      "10:00am-11:00am",
-      "11:30am-12:30pm",
-      "1:30pm-2:30pm",
-      "3:00pm-4:00pm",
-      "4:30pm-5:30pm",
+      "10:15am–11:15am",
+      "12:00pm–1:00pm",
+      "2:00pm-3:00pm",
     ],
     classTypes: [
-      "Beginner Modern Dance",
-      "Beginner Ballet",
-      "Beginner Jazz Dance",
-      "Youth Modern Dance",
-      "Youth Ballet",
-      "Youth Jazz Dance",
-    ],
+      "Modern (Kids/Youth)",
+      "Ballet (Kids/Youth)",
+      "Ballet (Kids)",
+      "Jazz (Kids / Youth)"
+    ]
   },
+  {
+    day: "5th December",
+    times: ["5:00pm-6:00pm"],
+    classTypes: ["Ballet (Youth)"]
+  },
+  {
+    day: "6th December",
+    times: [
+      "4:30pm-5:30pm",
+      "6:00pm-7:00pm"
+    ],
+    classTypes: [
+      "Modern (Adult)",
+      "Dancercise"
+    ]
+  },
+  {
+    day: "7th December",
+    times: ["5:30pm-6:30pm"],
+    classTypes: ["Ballet (Adult)"]
+  },
+  {
+    day: "8th December",
+    times: [
+      "4:30pm-5:30pm", 
+      "6:00pm-7:00pm"
+    ],
+    classTypes: [
+      "Jazz (Adult)", 
+      "Dancercise"
+    ]
+  },
+  {
+    day: "10th December",
+    times: [
+      "8:30am-9:30am",
+      "10:15am–11:15am",
+      "12:00pm–1:00pm",
+      "2:00pm-3:00pm",
+    ],
+    classTypes: [
+      "Modern (Kids/Youth)",
+      "Ballet (Kids/Youth)",
+      "Ballet (Kids)",
+      "Jazz (Kids / Youth)"
+    ]
+  }
 ];
 
 export { fourthMonthSchedule };

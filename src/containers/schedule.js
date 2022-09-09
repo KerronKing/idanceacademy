@@ -115,7 +115,7 @@ const Schedule = () => {
               is currently in view again to see another month’s dance schedule.{" "}
             </p>
             <p>
-              All classes for the January - April 2022 Term, will be taught
+              All classes for the September - December 2022 Term, will be taught
               via{" "}
               <a className="zoom-link" href="https://zoom.us/">
                 ZOOM
